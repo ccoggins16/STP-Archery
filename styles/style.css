@@ -1,0 +1,79 @@
+html { font: normal normal 16px/1.2 sans-serif, monospace; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  margin: 3rem;
+  width: 980px;
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  align-content: center;
+  font-weight: 500;
+  padding-top: 3rem;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  padding-top: 1rem;
+}
+
+h4 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+nav {
+  padding: 2rem;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+nav a {
+  padding: 2rem;  
+}
+
+img {
+  float: left;
+}
+
+figure img {
+  padding-right: 2rem;
+}
+
+div.servicesImg-container {
+  padding-top: 2rem;
+}
+
+p {
+  padding: 0 1rem 1rem 0;
+  line-height: 1.5rem;
+}
+
+ul {
+  list-style: inside;
+}
+
+li {
+  padding-left: 1rem;
+  line-height: 1.5rem;
+}
+
+.copyright {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}

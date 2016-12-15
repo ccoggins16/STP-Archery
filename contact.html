@@ -2,48 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>STP Archery - Contact</title>    
+    <title>STP Archery</title>      
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/col.css">
+    <link rel="stylesheet" href="styles/html5reset.css">
+    <link rel="stylesheet" href="styles/12cols.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <header>
-      <div id="logo-container"><img src="images/logo.jpg" width="100px" height="100px" alt="STP Archery Logo"></div>
-      <h1>Straight To the Point Archery</h1>
+      <div class="col span_1_of_12"></div>
+      <div class="col span_10_of_12">
+        <div class="col span_3_of_12" id="logo-container">
+          <img src="images/logo.jpg" width="100" height="100" alt="STP Archery Logo">
+        </div>
+        <div class="col span_7_of_12">
+          <h1>Straight to the Point Archery</h1>
+        </div>
+      </div>
+      <div class="col span_1_of_12"></div>
       <nav>
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="instructors.html">Instructors</a>
         <a href="contact.html">Contact</a>
-        <a href="About.html">About Us</a>        
+        <a href="about.html">About Us</a>        
       </nav>
     </header>
     <main> 
-      <h2>Welcome!</h2>
-      <p>
-        Sign up today for your individual lesson or attend one of our group lesson, availale for all ages.
-      </p> 
-      <p>
-        Feel free to call, email or stop by in person today! We are located at 528 Nock Point Ln. in Tacoma, WA (right across from TacoTime). Normal hours are Monday - Friday 9am to 5pm. 
-      </p>
-      <p>
-        528 Nock Point Ln.<br>
-        Tacoma, WA 98412<br>
-        <a href="mailto:archery-education@example.com">archery-education@example.com</a><br>
-        (253)555-1010
-      </p>
-      <div class="imgMain-container"><img src="images/students-competing.jpg" alt="students competing"></div>  
+      <div class="col span_1_of_12"></div>
+      <div class="col span_11_of_12">
+        <h2>Welcome!</h2>
+        <p>
+          Sign up today for your individual lesson or attend one of our group lesson, availale for all ages.
+        </p> 
+        <p>
+          Feel free to call, email or stop by in person today! We are located at 528 Nock Point Ln. in Tacoma, WA (right across from TacoTime). Normal hours are Monday - Friday 9am to 5pm. 
+        </p>
+        <p>
+          528 Nock Point Ln.<br>
+          Tacoma, WA 98412<br>
+          <a href="mailto:archery-education@example.com">archery-education@example.com</a><br>
+          (253)555-1010
+        </p>
+        <div class="imgMain-container"><img src="images/students-competing.jpg" alt="students competing"></div> 
+      </div>       
     </main>
     <footer>
-      <div id="address-container">528 Nock Point Ln<br>
+      <div class="col span_12_of_12"></div>
+      <div class="col span_2_of_12"></div>
+      <div class="col span_4_of_12" id="address-container">528 Nock Point Ln<br>
                                   Tacoma, WA 98412<br>
                                   <a href="mailto:archery-education@example.com">
                                     archery-education@example.com</a><br>
                                   (253)555-1010<br>
       </div>
-      <div id="footerLinks-container">
+      <div class="col span_1_of_12"></div>
+      <div class="col span_2_of_12" id="footerLinks-container">
         <a href="About.hmtl">About Us</a>
-        <a href="Services.html">Services</a><br>
-        Copyright STP Archery 2016
-      </div>      
+      </div>
+      <div class="col span_2_of_12">
+        <a href="Services.html">Services</a><br>        
+      </div>  
+      <div class="col span_12_of_12 copyright">Copyright STP Archery 2016</div>
     </footer>
   </body>
 </html>
